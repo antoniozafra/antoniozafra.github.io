@@ -189,6 +189,25 @@ ul .redes-sociales li{
 
     transition: all 500ms;
 }
+
+.card img {
+    width: fit-content;
+    height: 100px;
+    /* object-fit: contain; */
+}
+.card a {
+    color: black;
+}
+.card p {
+    max-width: fit-content;
+}
+
+#show-more a {
+    color: black;
+}
+.card small {
+    text-align: center;
+}
 .card:hover {
     transform: scale(1.05);
     transition: all 300ms;
@@ -200,10 +219,10 @@ ul .redes-sociales li{
     font-size: 28px;
 }
 
-.card img {
+/* .card img {
     padding: 1em;
     width: fit-content;
-}
+} */
 
 
 
