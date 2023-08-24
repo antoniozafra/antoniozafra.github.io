@@ -191,8 +191,9 @@ ul .redes-sociales li{
 }
 
 .card img {
-    width: fit-content;
-    height: 100px;
+    /* width: fit-content; */
+    width: 500px;
+    height: 200px;
     /* object-fit: contain; */
 }
 .card a {
@@ -219,10 +220,14 @@ ul .redes-sociales li{
     font-size: 28px;
 }
 
-/* .card img {
+
+.goWebsite {
+    margin: 1em;
     padding: 1em;
-    width: fit-content;
-} */
+    background-color: #CE3E3E;
+    font-family: "Tektur";
+    border-radius: 1em;
+}
 
 
 
